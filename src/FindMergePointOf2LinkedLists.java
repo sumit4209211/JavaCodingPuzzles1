@@ -11,7 +11,7 @@ class LinkedList1{
         }
     }
 
-    // Function to get the intersaction point
+    // Function to get the intersection point
     int getNode()
     {
         int c1=getCount(head1);
@@ -27,7 +27,7 @@ class LinkedList1{
 
         }
     }
-    //funciton to get intersection point of two linked lists head1 and head2 where head1 has d more nodes heads
+    //function to get intersection point of two linked lists head1 and head2 where head1 has d more nodes heads
     int _getIntersectionNode(int d,Node node1,Node node2)
     {
         int i;
