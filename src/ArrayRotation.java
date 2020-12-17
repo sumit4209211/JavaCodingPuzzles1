@@ -8,7 +8,7 @@ class RotateArray {
         for (int i = 0; i < d; i++)
             leftRotatebyOne(arr, n);
     }
-
+   
     void leftRotatebyOne(int arr[], int n)
     {
         int i, temp;
