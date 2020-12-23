@@ -1,6 +1,6 @@
 public class CodeOptimization {
     public static void main(String[] args) {
-        int[]  a = {1,9,9};
+        int[]  a = {8,1};
         int [] b= {1,1,5,3};
        int[] add= add(a,b);
         for (int i = 0; i < add.length; i++) {
@@ -40,7 +40,7 @@ public class CodeOptimization {
                     carry=0;
                 }
             }
-            result[i]=count;
+            result[length-i-1]=count;
         }
         return result;
     }
